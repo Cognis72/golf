@@ -1,0 +1,62 @@
+<svg width="200" height="300" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shaftGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a4a4a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6a6a6a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a4a4a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a7c2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3009;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gripGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#333333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Golf club shaft -->
+  <line x1="100" y1="50" x2="100" y2="250" stroke="url(#shaftGradient)" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Grip -->
+  <rect x="95" y="50" width="10" height="40" rx="5" fill="url(#gripGradient)"/>
+  <line x1="95" y1="60" x2="105" y2="60" stroke="#555555" stroke-width="0.5"/>
+  <line x1="95" y1="65" x2="105" y2="65" stroke="#555555" stroke-width="0.5"/>
+  <line x1="95" y1="70" x2="105" y2="70" stroke="#555555" stroke-width="0.5"/>
+  <line x1="95" y1="75" x2="105" y2="75" stroke="#555555" stroke-width="0.5"/>
+  <line x1="95" y1="80" x2="105" y2="80" stroke="#555555" stroke-width="0.5"/>
+  
+  <!-- Driver head -->
+  <g transform="translate(100, 250)">
+    <!-- Main head body -->
+    <path d="M-25 0 Q-30 -5 -28 -15 L-10 -25 Q5 -30 25 -25 L40 -20 Q45 -15 42 -5 L35 5 Q30 8 15 8 L-15 8 Q-25 5 -25 0 Z" 
+          fill="url(#headGradient)" stroke="#1a3009" stroke-width="1"/>
+    
+    <!-- Face grooves -->
+    <line x1="-20" y1="-10" x2="20" y2="-15" stroke="#1a3009" stroke-width="0.5"/>
+    <line x1="-18" y1="-8" x2="22" y2="-13" stroke="#1a3009" stroke-width="0.5"/>
+    <line x1="-16" y1="-6" x2="24" y2="-11" stroke="#1a3009" stroke-width="0.5"/>
+    <line x1="-14" y1="-4" x2="26" y2="-9" stroke="#1a3009" stroke-width="0.5"/>
+    <line x1="-12" y1="-2" x2="28" y2="-7" stroke="#1a3009" stroke-width="0.5"/>
+    
+    <!-- Brand marking -->
+    <text x="5" y="-10" font-family="Arial, sans-serif" font-size="8" fill="#ffffff" font-weight="bold">TM</text>
+    
+    <!-- Weight screw -->
+    <circle cx="10" cy="2" r="2" fill="#333333" stroke="#1a1a1a" stroke-width="0.5"/>
+    <line x1="9" y1="2" x2="11" y2="2" stroke="#666666" stroke-width="0.3"/>
+    <line x1="10" y1="1" x2="10" y2="3" stroke="#666666" stroke-width="0.3"/>
+    
+    <!-- Hosel -->
+    <rect x="-2" y="-5" width="4" height="10" fill="#2d5016" stroke="#1a3009" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Shaft flex indicator -->
+  <text x="110" y="150" font-family="Arial, sans-serif" font-size="10" fill="#666666" transform="rotate(90 110 150)">STIFF</text>
+  
+  <!-- Shadow -->
+  <ellipse cx="105" cy="290" rx="30" ry="8" fill="#000000" opacity="0.2"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg width="200" height="300" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shaftGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3a3a3a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5a5a5a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a3a3a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="ironGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0c0c0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0a0a0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gripGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3009;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Golf club shaft -->
+  <line x1="100" y1="50" x2="95" y2="240" stroke="url(#shaftGradient2)" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Grip with texture -->
+  <rect x="95" y="50" width="10" height="45" rx="5" fill="url(#gripGradient2)"/>
+  
+  <!-- Grip texture pattern -->
+  <g opacity="0.6">
+    <path d="M96 55 L104 57 M96 59 L104 61 M96 63 L104 65 M96 67 L104 69 M96 71 L104 73 M96 75 L104 77 M96 79 L104 81 M96 83 L104 85 M96 87 L104 89" 
+          stroke="#4a7c2a" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Iron head (7-iron style) -->
+  <g transform="translate(95, 240)">
+    <!-- Main iron head -->
+    <path d="M-5 0 L-25 -10 Q-30 -15 -28 -25 L-20 -35 Q-15 -40 -5 -38 L25 -30 Q35 -28 40 -20 L45 -10 Q45 -5 40 0 L20 5 Q10 6 0 5 Z" 
+          fill="url(#ironGradient)" stroke="#888888" stroke-width="1"/>
+    
+    <!-- Face grooves (more pronounced for iron) -->
+    <line x1="-20" y1="-30" x2="25" y2="-25" stroke="#666666" stroke-width="0.7"/>
+    <line x1="-18" y1="-27" x2="27" y2="-22" stroke="#666666" stroke-width="0.7"/>
+    <line x1="-16" y1="-24" x2="29" y2="-19" stroke="#666666" stroke-width="0.7"/>
+    <line x1="-14" y1="-21" x2="31" y2="-16" stroke="#666666" stroke-width="0.7"/>
+    <line x1="-12" y1="-18" x2="33" y2="-13" stroke="#666666" stroke-width="0.7"/>
+    <line x1="-10" y1="-15" x2="35" y2="-10" stroke="#666666" stroke-width="0.7"/>
+    <line x1="-8" y1="-12" x2="37" y2="-7" stroke="#666666" stroke-width="0.7"/>
+    
+    <!-- Number "7" on iron -->
+    <text x="8" y="-15" font-family="Arial, sans-serif" font-size="12" fill="#2d5016" font-weight="bold">7</text>
+    
+    <!-- Brand marking -->
+    <text x="-15" y="-8" font-family="Arial, sans-serif" font-size="6" fill="#666666">CALLAWAY</text>
+    
+    <!-- Hosel connection -->
+    <rect x="-2" y="-8" width="4" height="12" fill="#a0a0a0" stroke="#888888" stroke-width="0.5"/>
+    
+    <!-- Leading edge highlight -->
+    <line x1="-25" y1="-8" x2="40" y2="-2" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+  </g>
+  
+  <!-- Shaft markings -->
+  <text x="110" y="120" font-family="Arial, sans-serif" font-size="8" fill="#666666" transform="rotate(88 110 120)">GRAPHITE</text>
+  <text x="110" y="180" font-family="Arial, sans-serif" font-size="8" fill="#666666" transform="rotate(88 110 180)">REGULAR</text>
+  
+  <!-- Ferrule (decorative ring) -->
+  <rect x="92" y="95" width="12" height="4" rx="6" fill="#333333"/>
+  
+  <!-- Shadow -->
+  <ellipse cx="100" cy="290" rx="35" ry="8" fill="#000000" opacity="0.2"/>
+</svg>

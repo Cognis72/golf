@@ -1,0 +1,110 @@
+<svg width="200" height="300" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a7c2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3009;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="zipperGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#666666;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="strapGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#333333;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#555555;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bag shadow -->
+  <ellipse cx="100" cy="285" rx="60" ry="15" fill="#000000" opacity="0.3"/>
+  
+  <!-- Main golf bag body -->
+  <path d="M60 100 Q58 95 60 90 L65 85 Q70 80 80 80 L120 80 Q130 80 135 85 L140 90 Q142 95 140 100 L140 260 Q140 270 130 275 L120 280 L80 280 L70 275 Q60 270 60 260 Z" 
+        fill="url(#bagGradient)" stroke="#1a3009" stroke-width="2"/>
+  
+  <!-- Top opening -->
+  <ellipse cx="100" cy="85" rx="40" ry="10" fill="#1a3009" stroke="#0d1804" stroke-width="1"/>
+  <ellipse cx="100" cy="82" rx="38" ry="8" fill="#2d5016"/>
+  
+  <!-- Divider system (14-way) -->
+  <g opacity="0.8">
+    <!-- Vertical dividers -->
+    <line x1="85" y1="82" x2="85" y2="90" stroke="#4a7c2a" stroke-width="1"/>
+    <line x1="100" y1="82" x2="100" y2="90" stroke="#4a7c2a" stroke-width="1"/>
+    <line x1="115" y1="82" x2="115" y2="90" stroke="#4a7c2a" stroke-width="1"/>
+    
+    <!-- Horizontal dividers -->
+    <line x1="70" y1="85" x2="130" y2="85" stroke="#4a7c2a" stroke-width="1"/>
+    <line x1="75" y1="88" x2="125" y2="88" stroke="#4a7c2a" stroke-width="1"/>
+  </g>
+  
+  <!-- Club heads sticking out -->
+  <g>
+    <!-- Driver head -->
+    <ellipse cx="90" cy="75" rx="6" ry="3" fill="#2d5016" transform="rotate(10 90 75)"/>
+    
+    <!-- Iron heads -->
+    <rect x="95" y="70" width="3" height="8" fill="#c0c0c0" transform="rotate(5 95 70)"/>
+    <rect x="100" y="72" width="3" height="8" fill="#c0c0c0" transform="rotate(-5 100 72)"/>
+    <rect x="105" y="70" width="3" height="8" fill="#c0c0c0"/>
+    
+    <!-- Putter head -->
+    <rect x="110" y="75" width="4" height="6" fill="#888888" transform="rotate(-10 110 75)"/>
+  </g>
+  
+  <!-- Large front pocket -->
+  <rect x="75" y="130" width="50" height="40" rx="5" fill="#4a7c2a" stroke="#2d5016" stroke-width="1"/>
+  
+  <!-- Front pocket zipper -->
+  <line x1="75" y1="135" x2="125" y2="135" stroke="url(#zipperGradient)" stroke-width="2"/>
+  <circle cx="122" cy="135" r="2" fill="#666666"/>
+  
+  <!-- Side pockets -->
+  <ellipse cx="65" cy="180" rx="8" ry="15" fill="#4a7c2a" stroke="#2d5016" stroke-width="1"/>
+  <ellipse cx="135" cy="180" rx="8" ry="15" fill="#4a7c2a" stroke="#2d5016" stroke-width="1"/>
+  
+  <!-- Ball pocket (mesh) -->
+  <rect x="85" y="200" width="30" height="25" rx="3" fill="#6db33f" stroke="#4a7c2a" stroke-width="1"/>
+  <g opacity="0.6">
+    <line x1="87" y1="202" x2="113" y2="202" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="87" y1="206" x2="113" y2="206" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="87" y1="210" x2="113" y2="210" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="87" y1="214" x2="113" y2="214" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="87" y1="218" x2="113" y2="218" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="87" y1="222" x2="113" y2="222" stroke="#2d5016" stroke-width="0.5"/>
+    
+    <line x1="90" y1="200" x2="90" y2="225" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="95" y1="200" x2="95" y2="225" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="100" y1="200" x2="100" y2="225" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="105" y1="200" x2="105" y2="225" stroke="#2d5016" stroke-width="0.5"/>
+    <line x1="110" y1="200" x2="110" y2="225" stroke="#2d5016" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Dual strap system -->
+  <path d="M50 120 Q45 115 50 110 L55 105 Q60 100 70 105 L75 110" 
+        stroke="url(#strapGradient)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M150 120 Q155 115 150 110 L145 105 Q140 100 130 105 L125 110" 
+        stroke="url(#strapGradient)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Strap buckles -->
+  <rect x="45" y="115" width="10" height="6" rx="2" fill="#333333" stroke="#1a1a1a" stroke-width="0.5"/>
+  <rect x="145" y="115" width="10" height="6" rx="2" fill="#333333" stroke="#1a1a1a" stroke-width="0.5"/>
+  
+  <!-- Brand logo area -->
+  <rect x="85" y="240" width="30" height="15" rx="3" fill="#6db33f" stroke="#4a7c2a" stroke-width="1"/>
+  <text x="100" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#ffffff" font-weight="bold">CALLAWAY</text>
+  
+  <!-- Reinforcement patches -->
+  <rect x="58" y="95" width="6" height="15" rx="3" fill="#1a3009"/>
+  <rect x="136" y="95" width="6" height="15" rx="3" fill="#1a3009"/>
+  
+  <!-- Rain hood hook -->
+  <circle cx="100" cy="95" r="2" fill="#333333" stroke="#1a1a1a" stroke-width="0.5"/>
+  
+  <!-- Umbrella holder -->
+  <rect x="45" y="140" width="4" height="20" rx="2" fill="#333333"/>
+  <circle cx="47" cy="138" r="1.5" fill="#333333"/>
+</svg>

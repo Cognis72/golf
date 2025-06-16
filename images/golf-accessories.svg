@@ -1,0 +1,177 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gloveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f8f8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="rangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a7c2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3009;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="teeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Golf Glove -->
+  <g transform="translate(20, 20)">
+    <!-- Glove main body -->
+    <path d="M0 40 Q0 35 5 30 L10 25 Q15 20 20 22 L25 25 L30 22 Q35 20 40 25 L45 30 Q50 35 50 40 L50 80 Q50 85 45 90 L40 95 Q35 97 30 95 L25 90 L20 95 Q15 97 10 95 L5 90 Q0 85 0 80 Z" 
+          fill="url(#gloveGradient)" stroke="#d0d0d0" stroke-width="1"/>
+    
+    <!-- Finger separations -->
+    <line x1="15" y1="22" x2="15" y2="50" stroke="#d0d0d0" stroke-width="0.8"/>
+    <line x1="25" y1="20" x2="25" y2="50" stroke="#d0d0d0" stroke-width="0.8"/>
+    <line x1="35" y1="22" x2="35" y2="50" stroke="#d0d0d0" stroke-width="0.8"/>
+    
+    <!-- Thumb -->
+    <path d="M0 40 Q-5 35 -8 40 L-10 50 Q-8 55 -5 58 L0 60" fill="url(#gloveGradient)" stroke="#d0d0d0" stroke-width="1"/>
+    
+    <!-- Velcro strap -->
+    <rect x="5" y="85" width="40" height="5" rx="2" fill="#333333"/>
+    <rect x="15" y="87" width="20" height="1" fill="#666666"/>
+    
+    <!-- Brand logo -->
+    <text x="25" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2d5016" font-weight="bold">FootJoy</text>
+    
+    <!-- Size marking -->
+    <text x="25" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666666" font-weight="bold">M-L</text>
+  </g>
+  
+  <!-- Golf Rangefinder -->
+  <g transform="translate(120, 30)">
+    <!-- Main body -->
+    <rect x="0" y="0" width="60" height="40" rx="5" fill="url(#rangeGradient)" stroke="#1a3009" stroke-width="1"/>
+    
+    <!-- Eyepiece -->
+    <rect x="-5" y="10" width="8" height="20" rx="4" fill="#333333" stroke="#1a1a1a" stroke-width="0.5"/>
+    <circle cx="-1" cy="20" r="6" fill="#1a1a1a"/>
+    <circle cx="-1" cy="20" r="4" fill="#333333"/>
+    
+    <!-- Objective lens -->
+    <circle cx="55" cy="20" r="12" fill="#1a1a1a" stroke="#333333" stroke-width="1"/>
+    <circle cx="55" cy="20" r="9" fill="#000066"/>
+    <circle cx="55" cy="20" r="6" fill="#000033"/>
+    <circle cx="52" cy="17" r="2" fill="#ffffff" opacity="0.6"/>
+    
+    <!-- Control buttons -->
+    <rect x="20" y="35" width="8" height="3" rx="1" fill="#666666"/>
+    <rect x="32" y="35" width="8" height="3" rx="1" fill="#666666"/>
+    
+    <!-- Display window -->
+    <rect x="15" y="5" width="25" height="12" rx="2" fill="#000000" stroke="#333333" stroke-width="0.5"/>
+    <text x="27" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#00ff00">125 YDS</text>
+    
+    <!-- Brand marking -->
+    <text x="30" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#6db33f" font-weight="bold">BUSHNELL</text>
+    
+    <!-- Lanyard attachment -->
+    <circle cx="5" cy="5" r="2" fill="#333333" stroke="#1a1a1a" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Golf Tees -->
+  <g transform="translate(220, 60)">
+    <!-- Wooden tee 1 -->
+    <line x1="10" y1="0" x2="10" y2="40" stroke="url(#teeGradient)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="10" cy="0" r="2" fill="#8B4513"/>
+    
+    <!-- Wooden tee 2 -->
+    <line x1="20" y1="5" x2="20" y2="40" stroke="url(#teeGradient)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="20" cy="5" r="2" fill="#8B4513"/>
+    
+    <!-- Plastic tee -->
+    <line x1="30" y1="2" x2="30" y2="35" stroke="#ff6b6b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="30" cy="2" r="1.5" fill="#ff6b6b"/>
+    
+    <!-- Castle tee -->
+    <line x1="40" y1="8" x2="40" y2="40" stroke="#4a7c2a" stroke-width="2" stroke-linecap="round"/>
+    <rect x="38" y="6" width="4" height="4" fill="#4a7c2a"/>
+    <line x1="36" y1="8" x2="44" y2="8" stroke="#4a7c2a" stroke-width="1"/>
+  </g>
+  
+  <!-- Golf Balls (in package) -->
+  <g transform="translate(20, 120)">
+    <!-- Package box -->
+    <rect x="0" y="0" width="50" height="30" rx="3" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+    
+    <!-- Package label -->
+    <rect x="2" y="2" width="46" height="8" fill="#2d5016"/>
+    <text x="25" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#ffffff" font-weight="bold">TITLEIST PRO V1</text>
+    
+    <!-- Ball cutouts in package -->
+    <circle cx="12" cy="20" r="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+    <circle cx="25" cy="20" r="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+    <circle cx="38" cy="20" r="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+    
+    <!-- Ball numbers -->
+    <text x="12" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2d5016" font-weight="bold">1</text>
+    <text x="25" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2d5016" font-weight="bold">2</text>
+    <text x="38" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#2d5016" font-weight="bold">3</text>
+    
+    <!-- Dimple pattern hints -->
+    <g opacity="0.3">
+      <circle cx="10" cy="18" r="0.3" fill="#cccccc"/>
+      <circle cx="14" cy="18" r="0.3" fill="#cccccc"/>
+      <circle cx="12" cy="16" r="0.3" fill="#cccccc"/>
+      
+      <circle cx="23" cy="18" r="0.3" fill="#cccccc"/>
+      <circle cx="27" cy="18" r="0.3" fill="#cccccc"/>
+      <circle cx="25" cy="16" r="0.3" fill="#cccccc"/>
+      
+      <circle cx="36" cy="18" r="0.3" fill="#cccccc"/>
+      <circle cx="40" cy="18" r="0.3" fill="#cccccc"/>
+      <circle cx="38" cy="16" r="0.3" fill="#cccccc"/>
+    </g>
+  </g>
+  
+  <!-- Ball Marker -->
+  <g transform="translate(100, 140)">
+    <circle cx="0" cy="0" r="8" fill="#2d5016" stroke="#1a3009" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="6" fill="#6db33f"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#ffffff" font-weight="bold">GS</text>
+  </g>
+  
+  <!-- Divot Tool -->
+  <g transform="translate(140, 130)">
+    <!-- Handle -->
+    <rect x="0" y="0" width="30" height="6" rx="3" fill="#333333" stroke="#1a1a1a" stroke-width="0.5"/>
+    
+    <!-- Prongs -->
+    <line x1="25" y1="3" x2="35" y2="-2" stroke="#666666" stroke-width="2" stroke-linecap="round"/>
+    <line x1="25" y1="3" x2="35" y2="8" stroke="#666666" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Ball marker attachment -->
+    <circle cx="32" cy="3" r="3" fill="#6db33f" stroke="#4a7c2a" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Scorecard and Pencil -->
+  <g transform="translate(200, 120)">
+    <!-- Scorecard -->
+    <rect x="0" y="0" width="25" height="35" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.5"/>
+    
+    <!-- Scorecard lines -->
+    <line x1="2" y1="5" x2="23" y2="5" stroke="#cccccc" stroke-width="0.3"/>
+    <line x1="2" y1="8" x2="23" y2="8" stroke="#cccccc" stroke-width="0.3"/>
+    <line x1="2" y1="11" x2="23" y2="11" stroke="#cccccc" stroke-width="0.3"/>
+    <line x1="2" y1="14" x2="23" y2="14" stroke="#cccccc" stroke-width="0.3"/>
+    <line x1="2" y1="17" x2="23" y2="17" stroke="#cccccc" stroke-width="0.3"/>
+    
+    <!-- Header -->
+    <rect x="2" y="2" width="21" height="2" fill="#2d5016"/>
+    
+    <!-- Golf pencil -->
+    <rect x="28" y="5" width="2" height="20" fill="#ffff00" stroke="#e6e600" stroke-width="0.3"/>
+    <rect x="28" y="23" width="2" height="3" fill="#ff69b4"/>
+    <circle cx="29" cy="5" r="1" fill="#333333"/>
+  </g>
+  
+  <!-- Shadows -->
+  <ellipse cx="45" cy="115" rx="25" ry="5" fill="#000000" opacity="0.2"/>
+  <ellipse cx="155" cy="85" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+  <ellipse cx="245" cy="105" rx="15" ry="3" fill="#000000" opacity="0.2"/>
+</svg>

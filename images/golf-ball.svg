@@ -1,0 +1,96 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ballGradient" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#f8f8f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="shadowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Ball shadow -->
+  <ellipse cx="75" cy="130" rx="35" ry="12" fill="url(#shadowGradient)"/>
+  
+  <!-- Main golf ball -->
+  <circle cx="75" cy="75" r="50" fill="url(#ballGradient)" stroke="#d0d0d0" stroke-width="0.5"/>
+  
+  <!-- Dimple pattern -->
+  <g opacity="0.4">
+    <!-- Center dimples -->
+    <circle cx="75" cy="75" r="2" fill="#cccccc"/>
+    <circle cx="65" cy="75" r="1.8" fill="#cccccc"/>
+    <circle cx="85" cy="75" r="1.8" fill="#cccccc"/>
+    <circle cx="75" cy="65" r="1.8" fill="#cccccc"/>
+    <circle cx="75" cy="85" r="1.8" fill="#cccccc"/>
+    
+    <!-- Ring 1 -->
+    <circle cx="62" cy="62" r="1.5" fill="#cccccc"/>
+    <circle cx="88" cy="62" r="1.5" fill="#cccccc"/>
+    <circle cx="62" cy="88" r="1.5" fill="#cccccc"/>
+    <circle cx="88" cy="88" r="1.5" fill="#cccccc"/>
+    
+    <!-- Ring 2 -->
+    <circle cx="55" cy="75" r="1.3" fill="#cccccc"/>
+    <circle cx="95" cy="75" r="1.3" fill="#cccccc"/>
+    <circle cx="75" cy="55" r="1.3" fill="#cccccc"/>
+    <circle cx="75" cy="95" r="1.3" fill="#cccccc"/>
+    
+    <!-- Ring 3 -->
+    <circle cx="50" cy="65" r="1.2" fill="#cccccc"/>
+    <circle cx="50" cy="85" r="1.2" fill="#cccccc"/>
+    <circle cx="100" cy="65" r="1.2" fill="#cccccc"/>
+    <circle cx="100" cy="85" r="1.2" fill="#cccccc"/>
+    <circle cx="65" cy="50" r="1.2" fill="#cccccc"/>
+    <circle cx="85" cy="50" r="1.2" fill="#cccccc"/>
+    <circle cx="65" cy="100" r="1.2" fill="#cccccc"/>
+    <circle cx="85" cy="100" r="1.2" fill="#cccccc"/>
+    
+    <!-- Additional scattered dimples -->
+    <circle cx="58" cy="58" r="1" fill="#cccccc"/>
+    <circle cx="92" cy="58" r="1" fill="#cccccc"/>
+    <circle cx="58" cy="92" r="1" fill="#cccccc"/>
+    <circle cx="92" cy="92" r="1" fill="#cccccc"/>
+    
+    <circle cx="45" cy="75" r="1" fill="#cccccc"/>
+    <circle cx="105" cy="75" r="1" fill="#cccccc"/>
+    <circle cx="75" cy="45" r="1" fill="#cccccc"/>
+    <circle cx="75" cy="105" r="1" fill="#cccccc"/>
+    
+    <circle cx="48" cy="55" r="0.8" fill="#cccccc"/>
+    <circle cx="48" cy="95" r="0.8" fill="#cccccc"/>
+    <circle cx="102" cy="55" r="0.8" fill="#cccccc"/>
+    <circle cx="102" cy="95" r="0.8" fill="#cccccc"/>
+    <circle cx="55" cy="48" r="0.8" fill="#cccccc"/>
+    <circle cx="95" cy="48" r="0.8" fill="#cccccc"/>
+    <circle cx="55" cy="102" r="0.8" fill="#cccccc"/>
+    <circle cx="95" cy="102" r="0.8" fill="#cccccc"/>
+    
+    <!-- Outer rim dimples -->
+    <circle cx="40" cy="75" r="0.8" fill="#cccccc"/>
+    <circle cx="110" cy="75" r="0.8" fill="#cccccc"/>
+    <circle cx="75" cy="40" r="0.8" fill="#cccccc"/>
+    <circle cx="75" cy="110" r="0.8" fill="#cccccc"/>
+    
+    <circle cx="43" cy="60" r="0.6" fill="#cccccc"/>
+    <circle cx="43" cy="90" r="0.6" fill="#cccccc"/>
+    <circle cx="107" cy="60" r="0.6" fill="#cccccc"/>
+    <circle cx="107" cy="90" r="0.6" fill="#cccccc"/>
+    <circle cx="60" cy="43" r="0.6" fill="#cccccc"/>
+    <circle cx="90" cy="43" r="0.6" fill="#cccccc"/>
+    <circle cx="60" cy="107" r="0.6" fill="#cccccc"/>
+    <circle cx="90" cy="107" r="0.6" fill="#cccccc"/>
+  </g>
+  
+  <!-- Brand marking -->
+  <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2d5016" font-weight="bold">PRO V1</text>
+  
+  <!-- Ball number -->
+  <text x="75" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2d5016" font-weight="bold">3</text>
+  
+  <!-- Highlight -->
+  <ellipse cx="60" cy="55" rx="8" ry="6" fill="#ffffff" opacity="0.6" transform="rotate(-20 60 55)"/>
+</svg>
