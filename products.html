@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="Products - GreenSwing Secondhand Golf" data-th="สินค้า - GreenSwing Secondhand Golf">Products - GreenSwing Secondhand Golf</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" data-en="Browse our complete collection of second-hand golf equipment. Clubs, balls, bags, and accessories from top brands at great prices." data-th="เรียกดูคอลเลกชั่นสมบูรณ์ของอุปกรณ์กอล์ฟมือสองของเรา ไม้กอล์ฟ ลูกกอล์ฟ กระเป๋า และอุปกรณ์เสริมจากแบรนด์ชั้นนำในราคาดี" content="Browse our complete collection of second-hand golf equipment. Clubs, balls, bags, and accessories from top brands at great prices.">
+    <meta name="keywords" content="golf products, second-hand golf clubs, used golf equipment, golf balls, golf bags, golf accessories">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Products - GreenSwing Secondhand Golf">
+    <meta property="og:description" content="Browse our complete collection of second-hand golf equipment at great prices.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo.svg" alt="GreenSwing Logo" class="logo">
+                    <span class="logo-text" data-en="GreenSwing" data-th="GreenSwing">GreenSwing</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" data-en="Home" data-th="หน้าแรก">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link active" data-en="Products" data-th="สินค้า">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" data-en="About" data-th="เกี่ยวกับเรา">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" data-en="Contact" data-th="ติดต่อ">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+                        <span class="lang-text">EN</span>
+                    </button>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title" data-en="Our Products" data-th="สินค้าของเรา">Our Products</h1>
+                <p class="page-subtitle" data-en="Discover premium second-hand golf equipment at unbeatable prices" data-th="ค้นหาอุปกรณ์กอล์ฟมือสองพรีเมี่ยมในราคาที่ดีที่สุด">Discover premium second-hand golf equipment at unbeatable prices</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section">
+            <div class="container">
+                <!-- Filter Bar -->
+                <div class="filter-bar">
+                    <div class="filter-controls">
+                        <button class="filter-btn active" data-category="all" data-en="All Products" data-th="สินค้าทั้งหมด">All Products</button>
+                        <button class="filter-btn" data-category="clubs" data-en="Clubs" data-th="ไม้กอล์ฟ">Clubs</button>
+                        <button class="filter-btn" data-category="balls" data-en="Balls" data-th="ลูกกอล์ฟ">Balls</button>
+                        <button class="filter-btn" data-category="bags" data-en="Bags" data-th="กระเป๋า">Bags</button>
+                        <button class="filter-btn" data-category="accessories" data-en="Accessories" data-th="อุปกรณ์เสริม">Accessories</button>
+                    </div>
+                    <div class="results-count">
+                        <span id="resultsCount" data-en="Showing all products" data-th="แสดงสินค้าทั้งหมด">Showing all products</span>
+                    </div>
+                </div>
+
+                <!-- Products Grid -->
+                <div class="products-grid" id="productsGrid">
+                    <!-- Golf Clubs -->
+                    <div class="product-card" data-category="clubs">
+                        <div class="product-image">
+                            <img src="images/golf-club-1.svg" alt="TaylorMade Driver" class="product-img">
+                            <div class="product-condition excellent" data-en="Excellent" data-th="สภาพดีเยี่ยม">Excellent</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="TaylorMade SIM2 Driver" data-th="ไดรเวอร์ TaylorMade SIM2">TaylorMade SIM2 Driver</h3>
+                            <p class="product-description" data-en="Professional grade driver with carbon fiber shaft. Minimal wear, excellent performance. Loft: 10.5°" data-th="ไดรเวอร์ระดับมืออาชีพด้วยก้านคาร์บอนไฟเบอร์ รอยการใช้งานน้อย ประสิทธิภาพดีเยี่ยม ลอฟต์: 10.5°">Professional grade driver with carbon fiber shaft. Minimal wear, excellent performance. Loft: 10.5°</p>
+                            <div class="product-price">฿8,500</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="clubs">
+                        <div class="product-image">
+                            <img src="images/golf-club-2.svg" alt="Callaway Iron Set" class="product-img">
+                            <div class="product-condition good" data-en="Good" data-th="สภาพดี">Good</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="Callaway Rogue Iron Set (5-PW)" data-th="ชุดไอรอน Callaway Rogue (5-PW)">Callaway Rogue Iron Set (5-PW)</h3>
+                            <p class="product-description" data-en="Complete iron set with graphite shafts. Shows normal wear but excellent playability. Great for mid-handicap players." data-th="ชุดไอรอนสมบูรณ์ด้วยก้านกราไฟต์ มีรอยการใช้งานปกติแต่เล่นได้ดีเยี่ยม เหมาะสำหรับผู้เล่นระดับกลาง">Complete iron set with graphite shafts. Shows normal wear but excellent playability. Great for mid-handicap players.</p>
+                            <div class="product-price">฿12,800</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <!-- Golf Balls -->
+                    <div class="product-card" data-category="balls">
+                        <div class="product-image">
+                            <img src="images/golf-ball.svg" alt="Titleist Pro V1" class="product-img">
+                            <div class="product-condition good" data-en="Good" data-th="สภาพดี">Good</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="Titleist Pro V1 (Dozen)" data-th="ลูกกอล์ฟ Titleist Pro V1 (โหล)">Titleist Pro V1 (Dozen)</h3>
+                            <p class="product-description" data-en="Premium golf balls with excellent flight characteristics. Slight cosmetic wear but perfect performance. Professional quality." data-th="ลูกกอล์ฟพรีเมี่ยมด้วยลักษณะการบินที่ดีเยี่ยม มีรอยการใช้งานเล็กน้อยแต่ประสิทธิภาพสมบูรณ์แบบ คุณภาพมืออาชีพ">Premium golf balls with excellent flight characteristics. Slight cosmetic wear but perfect performance. Professional quality.</p>
+                            <div class="product-price">฿1,200</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="balls">
+                        <div class="product-image">
+                            <img src="images/golf-ball.svg" alt="Callaway Chrome Soft" class="product-img">
+                            <div class="product-condition like-new" data-en="Like New" data-th="เหมือนใหม่">Like New</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="Callaway Chrome Soft (Dozen)" data-th="ลูกกอล์ฟ Callaway Chrome Soft (โหล)">Callaway Chrome Soft (Dozen)</h3>
+                            <p class="product-description" data-en="Tour-level golf balls with soft feel and low compression. Nearly new condition with original packaging." data-th="ลูกกอล์ฟระดับทัวร์ด้วยความรู้สึกนุ่มและการบีบอัดต่ำ สภาพเกือบใหม่พร้อมบรรจุภัณฑ์เดิม">Tour-level golf balls with soft feel and low compression. Nearly new condition with original packaging.</p>
+                            <div class="product-price">฿1,350</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <!-- Golf Bags -->
+                    <div class="product-card" data-category="bags">
+                        <div class="product-image">
+                            <img src="images/golf-bag.svg" alt="Callaway Cart Bag" class="product-img">
+                            <div class="product-condition like-new" data-en="Like New" data-th="เหมือนใหม่">Like New</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="Callaway Hyper Dry Cart Bag" data-th="กระเป๋าคาร์ท Callaway Hyper Dry">Callaway Hyper Dry Cart Bag</h3>
+                            <p class="product-description" data-en="Spacious cart bag with 14-way divider. Multiple pockets and excellent organization. Waterproof construction. Barely used condition." data-th="กระเป๋าคาร์ทขนาดใหญ่ด้วยช่องแบ่ง 14 ทาง กระเป๋าหลายช่องและการจัดระเบียบที่ดีเยี่ยม โครงสร้างกันน้ำ สภาพเกือบไม่เคยใช้">Spacious cart bag with 14-way divider. Multiple pockets and excellent organization. Waterproof construction. Barely used condition.</p>
+                            <div class="product-price">฿4,200</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="bags">
+                        <div class="product-image">
+                            <img src="images/golf-bag.svg" alt="TaylorMade Stand Bag" class="product-img">
+                            <div class="product-condition excellent" data-en="Excellent" data-th="สภาพดีเยี่ยม">Excellent</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="TaylorMade FlexTech Stand Bag" data-th="กระเป๋าแบบมีขาตั้ง TaylorMade FlexTech">TaylorMade FlexTech Stand Bag</h3>
+                            <p class="product-description" data-en="Lightweight stand bag perfect for walking rounds. 5-way divider and comfortable dual strap system. Excellent condition." data-th="กระเป๋าแบบมีขาตั้งน้ำหนักเบาเหมาะสำหรับการเดินเล่น ช่องแบ่ง 5 ทางและระบบสายสะพายคู่ที่สะดวกสบาย สภาพดีเยี่ยม">Lightweight stand bag perfect for walking rounds. 5-way divider and comfortable dual strap system. Excellent condition.</p>
+                            <div class="product-price">฿2,800</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <!-- Accessories -->
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img src="images/golf-accessories.svg" alt="Golf Gloves" class="product-img">
+                            <div class="product-condition excellent" data-en="Excellent" data-th="สภาพดีเยี่ยม">Excellent</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="FootJoy Premium Gloves (3-pack)" data-th="ถุงมือกอล์ฟ FootJoy Premium (3 คู่)">FootJoy Premium Gloves (3-pack)</h3>
+                            <p class="product-description" data-en="High-quality cabretta leather gloves. Size M-L. Minimal wear with excellent grip. Professional grade quality." data-th="ถุงมือหนังคาเบรตตาคุณภาพสูง ไซส์ M-L รอยการใช้งานน้อยมากพร้อมการจับกริปที่ดีเยี่ยม คุณภาพระดับมืออาชีพ">High-quality cabretta leather gloves. Size M-L. Minimal wear with excellent grip. Professional grade quality.</p>
+                            <div class="product-price">฿950</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img src="images/golf-accessories.svg" alt="Golf Rangefinder" class="product-img">
+                            <div class="product-condition good" data-en="Good" data-th="สภาพดี">Good</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="Bushnell Tour V4 Rangefinder" data-th="เครื่องวัดระยะ Bushnell Tour V4">Bushnell Tour V4 Rangefinder</h3>
+                            <p class="product-description" data-en="Accurate laser rangefinder with PinSeeker technology. Good working condition with original case and manual." data-th="เครื่องวัดระยะเลเซอร์ที่แม่นยำพร้อมเทคโนโลยี PinSeeker สภาพการทำงานดีพร้อมเคสและคู่มือเดิม">Accurate laser rangefinder with PinSeeker technology. Good working condition with original case and manual.</p>
+                            <div class="product-price">฿3,500</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="clubs">
+                        <div class="product-image">
+                            <img src="images/golf-club-1.svg" alt="Ping Putter" class="product-img">
+                            <div class="product-condition excellent" data-en="Excellent" data-th="สภาพดีเยี่ยม">Excellent</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name" data-en="Ping Anser 2 Putter" data-th="พัตเตอร์ Ping Anser 2">Ping Anser 2 Putter</h3>
+                            <p class="product-description" data-en="Classic blade putter with excellent feel. 35-inch length. Minimal wear on face with original grip in great condition." data-th="พัตเตอร์แบบเบลดคลาสสิกด้วยความรู้สึกที่ดีเยี่ยม ยาว 35 นิ้ว รอยการใช้งานน้อยบนหน้าไม้พร้อมกริปเดิมในสภาพดี">Classic blade putter with excellent feel. 35-inch length. Minimal wear on face with original grip in great condition.</p>
+                            <div class="product-price">฿2,200</div>
+                            <button class="btn btn-contact" data-line-url="https://line.me/R/ti/p/@greenswing" data-en="Contact via LINE" data-th="ติดต่อผ่าน LINE">Contact via LINE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-section">
+                    <button class="btn btn-secondary" id="loadMoreBtn" data-en="Load More Products" data-th="โหลดสินค้าเพิ่มเติม">Load More Products</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="GreenSwing Logo" class="logo">
+                        <span class="logo-text" data-en="GreenSwing" data-th="GreenSwing">GreenSwing</span>
+                    </div>
+                    <p class="footer-description" data-en="Your trusted partner for premium second-hand golf equipment in Thailand." data-th="พันธมิตรที่เชื่อถือได้สำหรับอุปกรณ์กอล์ฟมือสองพรีเมี่ยมในประเทศไทย">Your trusted partner for premium second-hand golf equipment in Thailand.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title" data-en="Quick Links" data-th="ลิงก์ด่วน">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-en="Home" data-th="หน้าแรก">Home</a></li>
+                        <li><a href="products.html" data-en="Products" data-th="สินค้า">Products</a></li>
+                        <li><a href="about.html" data-en="About" data-th="เกี่ยวกับเรา">About</a></li>
+                        <li><a href="contact.html" data-en="Contact" data-th="ติดต่อ">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title" data-en="Categories" data-th="หมวดหมู่">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="products.html?category=clubs" data-en="Golf Clubs" data-th="ไม้กอล์ฟ">Golf Clubs</a></li>
+                        <li><a href="products.html?category=balls" data-en="Golf Balls" data-th="ลูกกอล์ฟ">Golf Balls</a></li>
+                        <li><a href="products.html?category=bags" data-en="Golf Bags" data-th="กระเป๋ากอล์ฟ">Golf Bags</a></li>
+                        <li><a href="products.html?category=accessories" data-en="Accessories" data-th="อุปกรณ์เสริม">Accessories</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title" data-en="Contact Info" data-th="ข้อมูลติดต่อ">Contact Info</h4>
+                    <div class="contact-info">
+                        <p data-en="LINE: @greenswing" data-th="LINE: @greenswing">LINE: @greenswing</p>
+                        <p data-en="Phone: +66 12 345 6789" data-th="โทร: +66 12 345 6789">Phone: +66 12 345 6789</p>
+                        <p data-en="Email: info@greenswing.com" data-th="อีเมล: info@greenswing.com">Email: info@greenswing.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright" data-en="© 2025 GreenSwing Secondhand Golf. All rights reserved." data-th="© 2025 GreenSwing Secondhand Golf สงวนลิขสิทธิ์">© 2025 GreenSwing Secondhand Golf. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
